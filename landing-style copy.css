@@ -1,0 +1,287 @@
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: xx-large;
+   text-align: center;
+   color: #505050;
+}
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: x-large;
+   font-weight: bold;
+   color: #505050;
+   line-height: 150%;
+}
+h3 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   color: #505050;
+}
+p, li {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   color: #505050;
+   padding-bottom:3px;
+}
+p2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+/*    padding: 10px; */
+/*    padding-top: 10px; */
+   color: #505050;
+}
+ul {
+    list-style-image: url('http://demi-barpilates.com/development/marketing/sm-bullet-point.png');
+}
+body {
+   float: left;
+   overflow-x: hidden;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+/* this is mobile styling */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+	.page {
+	   /*max-width: 1200px;*/
+	   z-index: 5;
+	   /*text-align: center;*/
+	}
+	.hero {
+	   /*float: left;*/
+	   position: relative;
+	   /*text-align: center;*/
+	/* 	margin-left: -10px; */
+	/* 	margin-right: -10px; */
+	/* 	padding: -10px; */
+	   /* max-width: 100%; */
+	   min-width: 100%;
+	   z-index: -10;
+	   /*height: 100%;*/
+	}
+	img {
+	   /*float: left;*/
+	   text-align: center;
+	   /*margin: 10px;*/
+	   /*padding: 10px;*/
+	   max-width: 100%;
+	   z-index: -100;
+	   /*overflow: hidden;*/
+	   }
+	.imghead {
+	   /*float: left;*/
+	   text-align: center;
+	   /*margin: 10px;*/
+	   padding: 30px 0px 0px 0px;
+	   max-width: 100%;
+	   z-index: -100;
+	   /*overflow: hidden;*/
+	}
+	.any-box {
+	   float: left;
+	   display: inline-block;
+	   margin: 5px;
+	   padding: 5px;
+	   width: 95%;
+/* 	   min-width: 275px; */
+/* 	   max-height: 420px; */
+	}
+	.ccform {
+/* 	   float: left; */
+/* 	   position: absolute; */
+/* 	   right: 30px; */
+	   /*display: inline-block;*/
+/* 	   margin: -110px 10px 10px; */
+/* 	   padding: 30px; */
+	   max-width: 100%;
+/* 	   min-width: 200px; */
+	   height: 400px%;  
+	}
+	.testimonial {
+	   float: left;
+/* 	   position: absolute; */
+	   right: 30px;
+	   /*display: inline-block;*/
+	   /*margin: 10px;*/
+	   padding: 10px;
+	   max-width: 100%;
+/* 	   min-width: 200px; */
+/* 	   height: 300px;  */
+	}
+	.video-container {
+		position:relative;
+		padding-bottom:56.25%;
+		padding-top:30px;
+		height:0;
+		overflow:hidden;
+	}
+
+	.video-container iframe, .video-container object, .video-container embed {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+
+	.prefooter {
+	   float: left;
+	   text-align: center;
+	   /*display: inline-block;*/
+	   margin: 10px 10%;
+	   padding: 10px;
+	   max-width: 100%;
+/* 	   min-width: 50%; */
+/* 	   height: 120px; */
+	   border-top-style: double;
+	   border-top-color: #7BC3E5;
+	}
+	.thefooterLR {
+		float:left;
+		width: 100%;
+		height: 65px;
+		display: inline-block;
+		background-color: #d3d3d3;
+		margin: 0px;
+		border: 0px;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.thefooterM {
+		float:left;
+		width: 100%;
+		height: 65px;
+		display: inline-block;
+		background-color: #d3d3d3;
+		margin: 0px;
+		border: 0px;
+		padding-top: 20px;
+		text-align: center;
+	}
+@media only screen and (min-device-width: 600px) and (min-width: 800px) {
+/* this is NON MOBILE content */
+	.page {
+	   z-index: 5;
+	   /*text-align: center;*/
+	   margin-bottom: 15px;
+	   margin-left: 5%;
+	}
+	.hero {
+	   /*float: left;*/
+	   position: relative;
+	   /*text-align: center;*/
+	/* 	margin-left: -10px; */
+	/* 	margin-right: -10px; */
+	/* 	padding: -10px; */
+	   /* max-width: 100%; */
+	   min-width: 100%;
+	   z-index: -10;
+	   /*height: 100%;*/
+	}
+	img {
+	   /*float: left;*/
+	   text-align: center;
+	   /*margin: 10px;*/
+	   /*padding: 10px;*/
+	   max-width: 100%;
+	   z-index: -100;
+	   /*overflow: hidden;*/
+	}
+	.imghead {
+	   /*float: left;*/
+	   text-align: center;
+	   /*margin: 10px;*/
+	   /*padding: 10px;*/
+	   max-width: 100%;
+	   z-index: -100;
+	   /*overflow: hidden;*/
+	}
+	.any-box {
+	   float: left;
+	   display: inline-block;
+	   margin: 5px;
+	   padding: 5px;
+	   width: 47%;
+	   min-width: 300px;
+	   height: 60%;
+	   min-height: 400px;
+	   max-height:500px;
+	   overflow:hidden;
+}
+	.ccform {
+	   float: left;
+	   position: absolute;
+	   right: 7%;
+	   /*display: inline-block;*/
+	   margin: -110px 10px 10px;
+	   width: 40%;
+/* 	   padding: 30px; */
+	   max-width: 325px;
+/* 	   min-width: 200px; */
+/* 	   height: 420px;   */
+	}
+	.testimonial {
+	   float: left;
+	   position: absolute;
+	   right: 5%;
+	   /*display: inline-block;*/
+/* 	   margin: 5px; */
+/* 	   padding: 30px; */
+	   width: 30%;
+/* 	   min-width: 200px; */
+	   height: 300px; 
+	   overflow:hidden;
+	}
+	.video-container {
+		position:relative;
+		padding-bottom:56.25%;
+		padding-top:30px;
+		height:0;
+		overflow:hidden;
+	}
+
+	.video-container iframe, .video-container object, .video-container embed {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+
+	.prefooter {
+	   float: left;
+	   text-align: center;
+	   /*display: inline-block;*/
+	   margin: 7% 7% 10px 7%;
+	   padding: 3% 10px 10px 10px;
+	   max-width: 100%;
+/* 	   min-width: 50%; */
+/* 	   height: 120px; */
+	   border-top-style: double;
+	   border-top-color: #7BC3E5;
+	}
+	.thefooterLR {
+		float: left;
+		width: 30%;
+		height: 80px;
+		display: inline-block;
+		background-color: #d3d3d3;
+		margin: 0px -26px 0px 0px;
+		border: 0px;
+/* 		padding-top: 10px; */
+		text-align: left;
+		padding: 10px 0px 0px 25px;
+	}
+	.thefooterM {
+		float: left;
+		width: 40%;
+		height: 80px;
+		display: inline-block;
+		background-color: #d3d3d3;
+		margin: 0px;
+		border: 0px;
+		padding-top: 10px;
+		text-align: center;
+	}
+}
